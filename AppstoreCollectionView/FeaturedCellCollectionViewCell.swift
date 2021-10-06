@@ -10,12 +10,17 @@ import UIKit
 class FeaturedCellCollectionViewCell: UICollectionViewCell, SelfConfiguringCell {
     static var reuseIdentifier: String = "FeaturedCell"
     
+    let separator = UIView(frame: .zero)
     let tagLabel = UILabel()
     let nameLabel = UILabel()
     let subtitleLabel = UILabel()
     let imageView = UIImageView()
     
     private func commonInit() {
+        
+        separator.backgroundColor = .quaternaryLabel
+        
+        
         tagLabel.font = UIFontMetrics.default.scaledFont(for: UIFont.systemFont(ofSize: 12, weight: .bold))
         tagLabel.textColor = .systemBlue
         
@@ -27,20 +32,21 @@ class FeaturedCellCollectionViewCell: UICollectionViewCell, SelfConfiguringCell 
         
         imageView.layer.cornerRadius = 5
         imageView.clipsToBounds = true
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         
-        let stackView = UIStackView(arrangedSubviews: [tagLabel, nameLabel, subtitleLabel, imageView])
+        let stackView = UIStackView(arrangedSubviews: [separator, tagLabel, nameLabel, subtitleLabel, imageView])
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
         contentView.addSubview(stackView)
 
         NSLayoutConstraint.activate([
+            separator.heightAnchor.constraint(equalToConstant: 1),
             stackView.topAnchor.constraint(equalTo: contentView.topAnchor),
             stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
             stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor)
         ])
-        
+        stackView.setCustomSpacing(10, after: separator)
         stackView.setCustomSpacing(10, after: subtitleLabel)
     }
     
