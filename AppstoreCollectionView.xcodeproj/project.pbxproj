@@ -20,6 +20,11 @@
 		007BADBE270D75DD002FD97A /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADBD270D75DC002FD97A /* ArcadeViewController.swift */; };
 		007BADC0270D75E5002FD97A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADBF270D75E5002FD97A /* SearchViewController.swift */; };
 		007BADC2270D75F7002FD97A /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADC1270D75F7002FD97A /* GamesViewController.swift */; };
+		007BADC4270D783A002FD97A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADC3270D783A002FD97A /* App.swift */; };
+		007BADC6270D786B002FD97A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADC5270D786B002FD97A /* Section.swift */; };
+		007BADC8270D78CF002FD97A /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADC7270D78CF002FD97A /* Bundle-Decodable.swift */; };
+		007BADCA270D7D76002FD97A /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADC9270D7D76002FD97A /* SelfConfiguringCell.swift */; };
+		007BADCC270D7DF1002FD97A /* FeaturedCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADCB270D7DF1002FD97A /* FeaturedCellCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		007BADBD270D75DC002FD97A /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
 		007BADBF270D75E5002FD97A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		007BADC1270D75F7002FD97A /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		007BADC3270D783A002FD97A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		007BADC5270D786B002FD97A /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		007BADC7270D78CF002FD97A /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		007BADC9270D7D76002FD97A /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		007BADCB270D7DF1002FD97A /* FeaturedCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCellCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,11 @@
 				007BAD97270CE81B002FD97A /* Info.plist */,
 				007BADB9270CEB1D002FD97A /* appstore.json */,
 				007BADBB270D75D5002FD97A /* AppsViewController.swift */,
+				007BADC9270D7D76002FD97A /* SelfConfiguringCell.swift */,
+				007BADCB270D7DF1002FD97A /* FeaturedCellCollectionViewCell.swift */,
+				007BADC7270D78CF002FD97A /* Bundle-Decodable.swift */,
+				007BADC3270D783A002FD97A /* App.swift */,
+				007BADC5270D786B002FD97A /* Section.swift */,
 				007BADBD270D75DC002FD97A /* ArcadeViewController.swift */,
 				007BADBF270D75E5002FD97A /* SearchViewController.swift */,
 				007BADC1270D75F7002FD97A /* GamesViewController.swift */,
@@ -274,11 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007BADC6270D786B002FD97A /* Section.swift in Sources */,
 				007BADC2270D75F7002FD97A /* GamesViewController.swift in Sources */,
 				007BADC0270D75E5002FD97A /* SearchViewController.swift in Sources */,
+				007BADCA270D7D76002FD97A /* SelfConfiguringCell.swift in Sources */,
 				007BAD8E270CE819002FD97A /* ViewController.swift in Sources */,
 				007BAD8A270CE819002FD97A /* AppDelegate.swift in Sources */,
+				007BADCC270D7DF1002FD97A /* FeaturedCellCollectionViewCell.swift in Sources */,
 				007BADBE270D75DD002FD97A /* ArcadeViewController.swift in Sources */,
+				007BADC4270D783A002FD97A /* App.swift in Sources */,
+				007BADC8270D78CF002FD97A /* Bundle-Decodable.swift in Sources */,
 				007BADBC270D75D5002FD97A /* AppsViewController.swift in Sources */,
 				007BAD8C270CE819002FD97A /* SceneDelegate.swift in Sources */,
 			);
