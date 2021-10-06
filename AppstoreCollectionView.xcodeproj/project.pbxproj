@@ -15,6 +15,11 @@
 		007BAD96270CE81B002FD97A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007BAD94270CE81B002FD97A /* LaunchScreen.storyboard */; };
 		007BADA1270CE81B002FD97A /* AppstoreCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADA0270CE81B002FD97A /* AppstoreCollectionViewTests.swift */; };
 		007BADAC270CE81B002FD97A /* AppstoreCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADAB270CE81B002FD97A /* AppstoreCollectionViewUITests.swift */; };
+		007BADBA270CEB1D002FD97A /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 007BADB9270CEB1D002FD97A /* appstore.json */; };
+		007BADBC270D75D5002FD97A /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADBB270D75D5002FD97A /* AppsViewController.swift */; };
+		007BADBE270D75DD002FD97A /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADBD270D75DC002FD97A /* ArcadeViewController.swift */; };
+		007BADC0270D75E5002FD97A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADBF270D75E5002FD97A /* SearchViewController.swift */; };
+		007BADC2270D75F7002FD97A /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BADC1270D75F7002FD97A /* GamesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		007BADA7270CE81B002FD97A /* AppstoreCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppstoreCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		007BADAB270CE81B002FD97A /* AppstoreCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppstoreCollectionViewUITests.swift; sourceTree = "<group>"; };
 		007BADAD270CE81B002FD97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007BADB9270CEB1D002FD97A /* appstore.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
+		007BADBB270D75D5002FD97A /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
+		007BADBD270D75DC002FD97A /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
+		007BADBF270D75E5002FD97A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		007BADC1270D75F7002FD97A /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				007BAD92270CE81B002FD97A /* Assets.xcassets */,
 				007BAD94270CE81B002FD97A /* LaunchScreen.storyboard */,
 				007BAD97270CE81B002FD97A /* Info.plist */,
+				007BADB9270CEB1D002FD97A /* appstore.json */,
+				007BADBB270D75D5002FD97A /* AppsViewController.swift */,
+				007BADBD270D75DC002FD97A /* ArcadeViewController.swift */,
+				007BADBF270D75E5002FD97A /* SearchViewController.swift */,
+				007BADC1270D75F7002FD97A /* GamesViewController.swift */,
 			);
 			path = AppstoreCollectionView;
 			sourceTree = "<group>";
@@ -234,6 +249,7 @@
 				007BAD96270CE81B002FD97A /* LaunchScreen.storyboard in Resources */,
 				007BAD93270CE81B002FD97A /* Assets.xcassets in Resources */,
 				007BAD91270CE819002FD97A /* Main.storyboard in Resources */,
+				007BADBA270CEB1D002FD97A /* appstore.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007BADC2270D75F7002FD97A /* GamesViewController.swift in Sources */,
+				007BADC0270D75E5002FD97A /* SearchViewController.swift in Sources */,
 				007BAD8E270CE819002FD97A /* ViewController.swift in Sources */,
 				007BAD8A270CE819002FD97A /* AppDelegate.swift in Sources */,
+				007BADBE270D75DD002FD97A /* ArcadeViewController.swift in Sources */,
+				007BADBC270D75D5002FD97A /* AppsViewController.swift in Sources */,
 				007BAD8C270CE819002FD97A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
